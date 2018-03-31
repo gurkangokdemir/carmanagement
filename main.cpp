@@ -360,54 +360,54 @@ int main()
                     cin >> vName;
                     bicycle.setVID(vName);
                     outVehicleCount << bicycle.getVID();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Bicycle brand :";
                     cin >> vBrand;
                     bicycle.setBrand(vBrand);
                     outVehicleCount << bicycle.getBrand();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Bicycle motor :";
                     cin >> vMotor;
                     bicycle.setMotor(vMotor);
                     outVehicleCount << bicycle.getMotor();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Bicycle color :";
                     cin >> vColor;
                     bicycle.setColor(vColor);
                     outVehicleCount << bicycle.getColor();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Bicycle speed (digit only):";
                     cin >> vSpeed;
                     bicycle.setSpeed(vSpeed);
                     outVehicleCount << bicycle.getSpeed();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Bicycle capacity (digit only):";
                     cin >> vCapacity;
                     bicycle.setCapacity(vCapacity);
                     outVehicleCount << bicycle.getCapacity();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Bicycle wheel (digit only):";
                     cin >> vWheels;
                     bicycle.setWheels(vWheels);
                     outVehicleCount << bicycle.getWheels();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Bicycle year (digit only):";
                     cin >> vYear;
                     bicycle.setYear(vYear);
                     outVehicleCount << bicycle.getYear();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Bicycle price (digit only):";
                     cin >> vPrice;
                     bicycle.setPrice(vPrice);
-                    outVehicleCount << bicycle.getPrice();
+                    outVehicleCount << bicycle.getPrice() << endl;
 
                     system("CLS");
                     wsubMenu=0;
@@ -439,42 +439,42 @@ int main()
                     cin >> vMotor;
                     ship.setMotor(vMotor);
                     outVehicleCount << ship.getMotor();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Ship color :";
                     cin >> vColor;
                     ship.setColor(vColor);
                     outVehicleCount << ship.getColor();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Ship speed (digit only):";
                     cin >> vSpeed;
                     ship.setSpeed(vSpeed);
                     outVehicleCount << ship.getSpeed();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Ship capacity (digit only):";
                     cin >> vCapacity;
                     ship.setCapacity(vCapacity);
                     outVehicleCount << ship.getCapacity();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Ship wheel (digit only):";
                     cin >> vWheels;
                     ship.setWheels(vWheels);
                     outVehicleCount << ship.getWheels();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Ship year (digit only):";
                     cin >> vYear;
                     ship.setYear(vYear);
                     outVehicleCount << ship.getYear();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Ship price (digit only):";
                     cin >> vPrice;
                     ship.setPrice(vPrice);
-                    outVehicleCount << ship.getPrice();
+                    outVehicleCount << ship.getPrice() << endl;
 
                     system("CLS");
                     wsubMenu=0;
@@ -494,54 +494,54 @@ int main()
                     cin >> vName;
                     plane.setVID(vName);
                     outVehicleCount << plane.getVID();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Plane brand :";
                     cin >> vBrand;
                     plane.setBrand(vBrand);
                     outVehicleCount << plane.getBrand();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Plane motor :";
                     cin >> vMotor;
                     plane.setMotor(vMotor);
                     outVehicleCount << plane.getMotor();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Plane color :";
                     cin >> vColor;
                     plane.setColor(vColor);
                     outVehicleCount << plane.getColor();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Plane speed (digit only):";
                     cin >> vSpeed;
                     plane.setSpeed(vSpeed);
                     outVehicleCount << plane.getSpeed();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Plane capacity (digit only):";
                     cin >> vCapacity;
                     plane.setCapacity(vCapacity);
                     outVehicleCount << plane.getCapacity();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Plane wheel (digit only):";
                     cin >> vWheels;
                     plane.setWheels(vWheels);
                     outVehicleCount << plane.getWheels();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Plane year (digit only):";
                     cin >> vYear;
                     plane.setYear(vYear);
                     outVehicleCount << plane.getYear();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===Plane price (digit only):";
                     cin >> vPrice;
                     plane.setPrice(vPrice);
-                    outVehicleCount << plane.getPrice();
+                    outVehicleCount << plane.getPrice() << endl;
 
                     system("CLS");
                     wsubMenu=0;
@@ -561,54 +561,54 @@ int main()
                     cin >> vName;
                     airship.setVID(vName);
                     outVehicleCount << airship.getVID();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===AirShip brand :";
                     cin >> vBrand;
                     airship.setBrand(vBrand);
                     outVehicleCount << airship.getBrand();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===AirShip motor :";
                     cin >> vMotor;
                     airship.setMotor(vMotor);
                     outVehicleCount << airship.getMotor();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===AirShip color :";
                     cin >> vColor;
                     airship.setColor(vColor);
                     outVehicleCount << airship.getColor();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===AirShip speed (digit only):";
                     cin >> vSpeed;
                     airship.setSpeed(vSpeed);
                     outVehicleCount << airship.getSpeed();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===AirShip capacity (digit only):";
                     cin >> vCapacity;
                     airship.setCapacity(vCapacity);
                     outVehicleCount << airship.getCapacity();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===AirShip wheel (digit only):";
                     cin >> vWheels;
                     airship.setWheels(vWheels);
                     outVehicleCount << airship.getWheels();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===AirShip year (digit only):";
                     cin >> vYear;
                     airship.setYear(vYear);
                     outVehicleCount << airship.getYear();
-                    outVehicleCount << "";
+                    outVehicleCount << "-";
 
                     cout << "===AirShip price (digit only):";
                     cin >> vPrice;
                     airship.setPrice(vPrice);
-                    outVehicleCount << airship.getPrice();
+                    outVehicleCount << airship.getPrice() << endl;
 
                     system("CLS");
                     wsubMenu=0;

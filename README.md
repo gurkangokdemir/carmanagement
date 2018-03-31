@@ -1,2 +1,2 @@
 # carmanagement
-Basic Car Management Application 
+Simple car management application (OOP & C++)
